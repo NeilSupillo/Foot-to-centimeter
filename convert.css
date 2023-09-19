@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+:root {
+  --color: lavender;
+  --button-color: grey;
+  --width: 230px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: grey;
+  text-align: center;
+  margin: 1rem;
+
+}
+
+.main {
+
+  margin: auto;
+  border: 2px solid;
+  background-color: var(--color);
+  padding: .5rem;
+  width: min(90%, 25rem);
+}
+
+.main__title {
+  background-color: var(--color);
+  font-weight: bold;
+  text-align: center;
+  margin: .5rem;
+}
+
+.form__description {
+  background-color: var(--color);
+
+}
+
+.answer {
+  padding-top: 10px;
+  width: 200px;
+  margin: auto;
+}
+
+form {
+  margin: auto;
+  width: 230px;
+}
+
+.button {
+  background-color: var(--color);
+}
+
+.swap,
+.sub {
+  margin: 5px 5px 0 0;
+  padding: .5rem;
+  
+}
+
+.sub {
+  border: 2px solid black;
+}
+.swap{
+  
+}
+
+#val {
+  padding: .5rem;
+  width: 230px;
+}
+
+.footer {
+  margin: auto;
+  background-color: var(--color);
+  width: 230px;
+  padding-bottom: 10px;
+}
+
+.ansname {
+  padding: .3rem;
+  border: none;
+  width: 230px;
+}
+
+.results {
+  padding: .2rem;
+  background-color: var(--color);
+}
+
+input[type=number]:focus {
+  outline: none;
+}
+input{
+  border: none;
+}
+input[type=submit]:hover {
+  outline: black solid;
+}
+input[type=submit]{
+ 
+}
