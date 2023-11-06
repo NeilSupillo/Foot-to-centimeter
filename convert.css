@@ -16,15 +16,13 @@ h1 {
   color: grey;
   text-align: center;
   margin: 1rem;
-
 }
 
 .main {
-
   margin: auto;
   border: 2px solid;
   background-color: var(--color);
-  padding: .5rem;
+  padding: 0.5rem;
   width: min(90%, 25rem);
 }
 
@@ -32,12 +30,11 @@ h1 {
   background-color: var(--color);
   font-weight: bold;
   text-align: center;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .form__description {
   background-color: var(--color);
-
 }
 
 .answer {
@@ -58,19 +55,17 @@ form {
 .swap,
 .sub {
   margin: 5px 5px 0 0;
-  padding: .5rem;
-  
+  padding: 0.5rem;
 }
 
 .sub {
   border: 2px solid black;
 }
-.swap{
-  
+.swap {
 }
 
 #val {
-  padding: .5rem;
+  padding: 0.5rem;
   width: 230px;
 }
 
@@ -82,25 +77,35 @@ form {
 }
 
 .ansname {
-  padding: .3rem;
+  padding: 0.3rem;
   border: none;
   width: 230px;
 }
 
 .results {
-  padding: .2rem;
+  padding: 0.2rem;
   background-color: var(--color);
 }
 
-input[type=number]:focus {
+input[type="number"]:focus {
   outline: none;
 }
-input{
+input {
   border: none;
 }
-input[type=submit]:hover {
-  outline: black solid;
+
+.sub,
+.swap {
+  background-color: rgb(184, 184, 201);
+  border: 1px solid grey;
 }
-input[type=submit]{
- 
+.sub:hover {
+  opacity: 0.8;
+  outline: 1px solid black;
+}
+.swap:hover {
+  opacity: 0.8;
+  outline: 1px solid black;
+}
+input[type="submit"] {
 }
