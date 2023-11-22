@@ -57,6 +57,7 @@ form {
 .sub {
   margin: 5px 5px 0 0;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 .sub {
